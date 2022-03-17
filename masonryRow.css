@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul,
+li {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+li {
+    border-radius: 10px;
+    max-width: 30%;
+    margin: 1%;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0 #333;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.card-footer {
+    border-top: 1px solid;
+}
+
+.card-body {
+    padding-left: 10px;
+    flex: 1;
+}
+
+.down-part {
+    padding-bottom: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+}
+
+p {
+    margin: 0;
+    padding: 10px;
+}
+
+.masonry {
+    display: flex;
+    flex-flow: column wrap;
+}
